@@ -22,6 +22,14 @@ function Header() {
                             alt="Company Logo"
                         />
                     </Link>
+                    <Link href="/">
+                        <Image
+                            src="/images/logo.png"
+                            width={200}
+                            height={100}
+                            alt="Company Logo"
+                        />
+                    </Link>
                     <nav className="ml-[20%]">
                         <ul className="inline-flex space-x-6">
                             {links.map(({ title, path }) => (
